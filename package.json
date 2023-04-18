@@ -34,8 +34,9 @@
 		"Other"
 	],
 	"activationEvents": [
-		"*",
-		"onLanguage"
+		"onLanguage",
+		"workspaceContains:.direnv",
+		"*"
 	],
 	"capabilities": {
 		"untrustedWorkspaces": {
